@@ -1,16 +1,16 @@
 package com.sadykov;
 
 public class Actor {
-    private String fullName;
+    private String name;
     private String role;
 
-    public Actor(String fullName, String role) {
-        this.fullName = fullName;
+    public Actor(String name, String role) {
+        this.name = name;
         this.role = role;
     }
 
-    public String getFullName() {
-        return fullName;
+    public String getName() {
+        return name;
     }
 
     public String getRole() {

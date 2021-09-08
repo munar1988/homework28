@@ -1,13 +1,57 @@
 [
   {
-    "name": "",
-    "description": "",
-    "director":{
-      "fullname": ""
+    "nameCinema": "Начало",
+    "year": "2010",
+    "director": {
+      "fullName": "Кристофер Нолан",
+      "actor": {
+        "name": "Леонардо ДиКаприо",
+        "role": "Извлекатель"
+      }
     }
   },
-
-
-
-
+  {
+    "nameCinema": "Нокдаун",
+    "year": "2005",
+    "director": {
+      "fullName": "Рон Ховард",
+      "actor": {
+        "name": "Рассел Кроу",
+        "role": "Боксер"
+      }
+    }
+  },
+  {
+    "nameCinema": "Самый пьяный округ в мире",
+    "year": "2012",
+    "director": {
+      "fullName": "Джон Хиллкоут",
+      "actor": {
+        "name": "Том Харди",
+        "role": "Старший брат"
+      }
+    }
+  },
+  {
+    "nameCinema": "Ford против Ferrari",
+    "year": "2019",
+    "director": {
+      "fullName": "Джеймс Мэнголд",
+      "actor": {
+        "name": "Мэтт Дэймон",
+        "role": "Гонщик"
+      }
+    }
+  },
+  {
+    "nameCinema": "В погоне за Бонни и Клайдом",
+    "year": "2019",
+    "director": {
+      "fullName": "Джон Ли Хэнкок",
+      "actor": {
+        "name": "Кевин Костнер",
+        "role": "Рейнджер"
+      }
+    }
+  }
 ]

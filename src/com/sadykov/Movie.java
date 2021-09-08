@@ -1,14 +1,14 @@
 package com.sadykov;
 
 public class Movie {
-    private String name;
+    private String nameCinema;
     private int year;
     private Director director;
     private Actor actor;
     private String role;
 
-    public Movie(String name, int year, Director director, Actor actor, String role) {
-        this.name = name;
+    public Movie(String nameCinema, int year, Director director, Actor actor, String role) {
+        this.nameCinema = nameCinema;
         this.year = year;
         this.director = director;
         this.actor = actor;
@@ -16,11 +16,11 @@ public class Movie {
     }
 
     public String getName() {
-        return name;
+        return nameCinema;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.nameCinema = nameCinema;
     }
 
     public int getAge() {
