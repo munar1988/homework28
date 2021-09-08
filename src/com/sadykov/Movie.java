@@ -2,13 +2,17 @@ package com.sadykov;
 
 public class Movie {
     private String name;
-    private String Description;
+    private int year;
     private Director director;
+    private Actor actor;
+    private String role;
 
-    public Movie(String name, String description, Director director) {
+    public Movie(String name, int year, Director director, Actor actor, String role) {
         this.name = name;
-        Description = description;
+        this.year = year;
         this.director = director;
+        this.actor = actor;
+        this.role = role;
     }
 
     public String getName() {
@@ -19,12 +23,12 @@ public class Movie {
         this.name = name;
     }
 
-    public String getDescription() {
-        return Description;
+    public int getAge() {
+        return year;
     }
 
-    public void setDescription(String description) {
-        Description = description;
+    public void setAge(int age) {
+        this.year = age;
     }
 
     public Director getDirector() {
@@ -33,5 +37,21 @@ public class Movie {
 
     public void setDirector(Director director) {
         this.director = director;
+    }
+
+    public Actor getActor() {
+        return actor;
+    }
+
+    public void setActor(Actor actor) {
+        this.actor = actor;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 }

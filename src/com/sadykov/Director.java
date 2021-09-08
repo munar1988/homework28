@@ -1,14 +1,14 @@
 package com.sadykov;
 
 public class Director {
-    private String fullname;
+    private String fullName;
 
-    public Director(String fullname) {
-        this.fullname = fullname;
+    public Director(String fullName) {
+        this.fullName = fullName;
     }
 
     public String getName() {
-        return fullname;
+        return fullName;
     }
 }
 

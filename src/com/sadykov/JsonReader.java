@@ -11,7 +11,7 @@ public class JsonReader {
     private static Gson gson = new Gson();
 
     public static List<Movie> getMovies() throws IOException {
-        try(Reader reader = new FileReader("Movies.json")) {
+        try (Reader reader = new FileReader("Movies.json")) {
             List<Movie> movies = List.of(gson.fromJson(reader, Movie[].class));
             return movies;
         }
