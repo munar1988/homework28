@@ -7,28 +7,23 @@ public class Movie {
     private Actor actor;
     private String role;
 
-    public Movie(String nameCinema, int year, Director director, Actor actor, String role) {
-        this.nameCinema = nameCinema;
-        this.year = year;
-        this.director = director;
-        this.actor = actor;
-        this.role = role;
+    public Movie(String nameCinema, int year, String fullName, String name, String role) {
     }
 
-    public String getName() {
+    public String getNameCinema() {
         return nameCinema;
     }
 
-    public void setName(String name) {
+    public void setNameCinema(String nameCinema) {
         this.nameCinema = nameCinema;
     }
 
-    public int getAge() {
+    public int getYear() {
         return year;
     }
 
-    public void setAge(int age) {
-        this.year = age;
+    public void setYear(int year) {
+        this.year = year;
     }
 
     public Director getDirector() {
@@ -52,6 +47,14 @@ public class Movie {
     }
 
     public void setRole(String role) {
+        this.role = role;
+    }
+
+    public Movie(String nameCinema, int year, Director director, Actor actor, String role) {
+        this.nameCinema = nameCinema;
+        this.year = year;
+        this.director = director;
+        this.actor = actor;
         this.role = role;
     }
 }
